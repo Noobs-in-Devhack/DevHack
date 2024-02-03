@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Text summarisation</title>
+    <link rel="stylesheet" href="style_ts.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Protest+Strike&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Workbench&display=swap" rel="stylesheet">
+    <style>
+        #input input {
+            height:70px; 
+            width: 40%;
+            text-align: center;
+            position: relative;
+            top: 80px;
+            left:470px;
+            border-radius: 100PX;
+            border-width: 8px;
+            background-image: url(p13.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        } 
+    </style>
+</head>
+<body>
+    <script id="i3">
+        const backgroundImages = [
+            'url("u5.jpg")',
+            'url("u2.jpg")',
+            'url("u3.jpg")'
+        ];
+    
+        let currentIndex = 0;
+    
+        function changeBackgroundImage() {
+            const imageUrl = backgroundImages[currentIndex];
+            document.body.style.backgroundImage = imageUrl;
+            document.body.style.backgroundRepeat = 'no-repeat';
+            document.body.style.backgroundSize = 'cover';
+    
+            // Move to the next image in the array
+            currentIndex = (currentIndex + 1) % backgroundImages.length;
+        }
+    
+        // Change background image every 5 seconds
+        setInterval(changeBackgroundImage, 3000);
+    
+        // Initial background image
+        changeBackgroundImage();
+    </script>
+    
+    <h1>This is text summarisation</h1>
+    <div id="input">
+
+        <input type="text" placeholder="You need to enter the text here">
+    </div>
+    <a id="b2" href="https://www.google.com/">
+        <button >ENTER</button>
+    </a>
+</body>
+</html>

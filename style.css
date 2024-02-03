@@ -1,0 +1,53 @@
+h1{
+    font-family: "Bungee Inline";
+    color:rgb(121, 203, 39);
+    text-shadow: 0px 5px 10px black ;
+    position: relative;
+    top: -130px;
+    
+}
+p{
+    font-family: "honk";
+    font-size: 40px;
+    position: relative;
+    top: -200px;
+}
+body{
+    background-color: #f0f0f0;
+    background-image:url(img5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    background-size: cover;
+}
+button{
+    width: 300px;
+    height: 100px;
+    font-family: 'Honk';
+    font-size: 40px;
+    text-align: center;
+    border: none;
+    background-color: transparent;
+}
+
+#e1{
+    border: none;
+    height: 80px;
+    width: 100px;
+    position: relative;
+    top: -100px;
+    left: 320px;
+    color: #000;
+    font-family: "honk";
+}
+#e2{
+    border: none;
+    color: black;
+    height: 80px;
+    width: 100px;
+    position:relative;
+    top: -100px;
+    right:350px;
+    font-family: "honk";
+
+}

@@ -1,0 +1,11 @@
+input{
+    display: none;
+}
+label{
+    height: 100px;
+    width: 150px;
+}
+label:hover{
+    color: gray;
+    border: 10px dashed;
+}

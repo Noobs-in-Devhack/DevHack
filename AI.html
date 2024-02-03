@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Upload Example</title>
+    <link rel="stylesheet" href="style_Al.css">
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            font-size: 20px; /* Adjust the font size as needed */
+        }
+
+        form {
+            text-align: center;
+            position: relative;
+            top: 0px;
+            left: -300px;
+        }
+
+        label {
+            font-size: 30px; /* Adjust the font size as needed */
+        }
+
+        input {
+            font-size: 20px; /* Adjust the font size as needed */
+        }
+    </style>
+</head>
+<body>
+    <h1 id="h1">AI GENERATED TEXT DETECTION</h1>
+    <script id="i3">
+        const backgroundImages = [
+            'url("r3.jpg")',
+            'url("img.jpg")',
+            'url("r5.jpg")'
+        ];
+    
+        let currentIndex = 0;
+    
+        function changeBackgroundImage() {
+            const imageUrl = backgroundImages[currentIndex];
+            document.body.style.backgroundImage = imageUrl;
+            document.body.style.backgroundRepeat = 'no-repeat';
+            document.body.style.backgroundSize = 'cover';
+    
+            // Move to the next image in the array
+            currentIndex = (currentIndex + 1) % backgroundImages.length;
+        }
+    
+        // Change background image every 5 seconds
+        setInterval(changeBackgroundImage, 3000);
+    
+        // Initial background image
+        changeBackgroundImage();
+    </script>
+
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <label for="fileInput" style="font-size: 30px;">Choose a file:</label>
+        <br>
+        <input type="file" id="fileInput" name="fileInput" accept=".jpg, .jpeg, .png, .pdf" style="font-size: 20px;">
+        <br>
+        <input type="submit" value="Upload" style="font-size: 20px;">
+    </form>
+</body>
+</html>
