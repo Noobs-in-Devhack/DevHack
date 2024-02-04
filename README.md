@@ -8,7 +8,7 @@ This project includes 3 subtopics under the processing of text using AI and ML .
 - 'essay-generation-mistral-7b.ipynb' : Trained model to be used.
 
 ## Link Description
--[https://www.google.com](https://www.kaggle.com/aumthaker/essay-generation-mistral-7b)
+-[https://www.kaggle.com/aumthaker/essay-generation-mistral-7b]
 -[https://www.kaggle.com/aumthaker/essay-generation-mistral-7b]
 -[https://www.kaggle.com/code/aumthaker/notebook908baec182]
 
