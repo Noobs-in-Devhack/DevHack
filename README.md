@@ -1,44 +1,26 @@
 # DevHack
-# aicure_The-Noobs
 
-
-## Task
-The goal is to construct an advanced model capable of accurately predicting an individual's heart rate.The dataset encompasses diverse attributes derived from signals measured through ECG recordings for various individuals, each exhibiting different heart rates at the respective time of measurement. These features collectively contribute to determining the heart rate at the specific moment for each individual.
+## About Project
+This project includes 3 subtopics under the processing of text using AI and ML .This include AI generated text detection,text summarization and essay generation.
 
 ## Files Descriptions
-- 'AICure_finals.ipynb' : Jupyter notebook containing your experiments
-- 'ai_cures.pkl' : Trained model to be used.
-- 'run.py': Script which runs the model and predicts and stores the output in a .csv file based on the input (.csv) given.
-- 'Report' : Contains the research work done to decide upon which Machine Learning Model to be used.
+- 'Text_Summarization_model.ipynb' : Jupyter notebook containing your experiments
+- 'essay-generation-mistral-7b.ipynb' : Trained model to be used.
 
+## Link Description
+-[https://www.google.com](https://www.kaggle.com/aumthaker/essay-generation-mistral-7b)
+-[https://www.kaggle.com/aumthaker/essay-generation-mistral-7b]
+-[https://www.kaggle.com/code/aumthaker/notebook908baec182]
 
 ## Local Quickstart
 
-Follow these steps to get the model running locally.
+Follow these steps to run the notebook.
 
-### 1. Install
-Clone this repository and navigate to aicure_The-Noobs folder
-```bash
-git clone https://github.com/AmanPushkar/aicure_The-Noobs
-cd aicure_The-Noobs
-```
-
-### 1. Install packages
-```bash
-pip install joblib
-```
-```bash
-pip install pandas
-```
-```bash
-pip install scikit-learn
-```
-### 2. Run the script 'run.py'
-
-To generate the `results.csv` that contains the predicted Heart Rate values, run:
-```bash
-python run.py test_data.csv
-```
+### 1. Run the notebook(Text_Summarization_model.ipynb) on google collab or kaggle.
+- This accepts input as a string of words and gives the summarized string as output.
+### 2.Run the notebook(essay-generation-mistral-7b.ipynb.ipynb) on google collab or kaggle
+- This accepts a heading or a topic as input and generates the esaay on the topic 
+as output.
 
 [https://www.google.com](https://www.kaggle.com/aumthaker/essay-generation-mistral-7b)https://www.kaggle.com/aumthaker/essay-generation-mistral-7b]
 [https://www.kaggle.com/code/aumthaker/notebook908baec182]
