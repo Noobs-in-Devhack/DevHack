@@ -21,5 +21,7 @@ Follow these steps to run the notebook.
 - This accepts a heading or a topic as input and generates the esaay on the topic 
 as output.
 
+##Youtube Link = [https://youtu.be/TfjH-22tVws?si=1hHZaPZ7xDxxa9i-]
+
 [https://www.kaggle.com/aumthaker/essay-generation-mistral-7b]
 [https://www.kaggle.com/code/aumthaker/notebook908baec182]
