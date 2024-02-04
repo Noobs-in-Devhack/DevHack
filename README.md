@@ -9,7 +9,6 @@ This project includes 3 subtopics under the processing of text using AI and ML .
 
 ## Link Description
 -[https://www.kaggle.com/aumthaker/essay-generation-mistral-7b]
--[https://www.kaggle.com/aumthaker/essay-generation-mistral-7b]
 -[https://www.kaggle.com/code/aumthaker/notebook908baec182]
 
 ## Local Quickstart
@@ -22,5 +21,5 @@ Follow these steps to run the notebook.
 - This accepts a heading or a topic as input and generates the esaay on the topic 
 as output.
 
-[https://www.kaggle.com/aumthaker/essay-generation-mistral-7b)https://www.kaggle.com/aumthaker/essay-generation-mistral-7b]
+[https://www.kaggle.com/aumthaker/essay-generation-mistral-7b]
 [https://www.kaggle.com/code/aumthaker/notebook908baec182]
